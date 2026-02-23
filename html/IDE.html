@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Code Editor</title>
+<link rel="stylesheet" href="../css/ide.css">
+</head>
+<body>
+
+<header>
+  <h1>RADHA3.0 IDE --</h1>
+  <div class="controls">
+    <button id="newHtml">+ index.html</button>
+    <button id="newCss">+ style.css</button>
+    <button id="newJs">+ script.js</button>
+    <button id="runBtn">▶ Run</button>
+    <select id="fileSwitcher"></select>
+  </div>
+</header>
+
+<main>
+  <section class="editor">
+    <textarea id="code" placeholder="Write your code here..."></textarea>
+  </section>
+  <section class="output">
+    <iframe id="preview"></iframe>
+  </section>
+</main>
+
+<script src="../js/ide.js"></script>
+
+    <footer style="text-align: center;"> © 2025 @radha3.0. All rights reserved. </footer>
+</body>
+</html>
